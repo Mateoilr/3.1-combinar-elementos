@@ -1,16 +1,16 @@
 'use strict';
 //Ejercicio 2
 function mostrarCombinaciones(nums) {
-  for (let i of nums) {
-    for (let j of nums) {
-      alert(i + "" + j);
+  for (let i = 0; i < nums.length; i++) {
+    for (let j = 0; j < nums.length; j++) {
+        alert(nums[i] + "" + nums[j]);
+      }
     }
   }
-}
+
 
 let nums = [0, 2, 4, 8];
 mostrarCombinaciones(nums);
-
 //Ejercicio 3
 
 function mostrarCombinacionesSinRepetir(nums2) {
